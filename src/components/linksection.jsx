@@ -15,7 +15,7 @@ function Linksection() {
     // Prevent reloading the page
     e.preventDefault()
 
-    await fetch("https://cleanuri.com/api/v1/shorten", {
+    await fetch("https://api-ssl.bitly.com/v4/shorten", {
       method: "POST",
       mode: "cors",
       headers: {
